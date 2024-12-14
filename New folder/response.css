@@ -1,0 +1,39 @@
+.response{
+    padding: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+@media  {max-width: 600px;
+     .response{
+        background-color: blue;
+        font-size: 14px;
+        padding: 10px;
+     }
+
+     @media  {min-width: 600px;
+        .response{
+            background-color: blueviolet;
+            font-size: 18px;
+            padding: 25px;
+        }
+        
+     }
+     .header{
+
+        background-color: blue;
+        font-size: 25px;
+        padding-top: 10px;
+     }
+
+     @media  {max-width: 600px;
+        .response{
+           background-color: blue;
+           font-size: 14px;
+           padding: 10px;
+        
+     }
+
+
+    
+}

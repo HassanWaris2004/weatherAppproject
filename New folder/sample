@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+</head>
+<body style="margin: 0; padding: 0; line-height: 1.6;">
+    <header style="background-color: rgb(23, 22, 22); color: rgb(255, 254, 254); padding: 1rem; text-align: center;">
+        <h1>Hassan Waris Portfolio</h1>
+        <p>Web and App developer</p>
+    </header>
+
+    <div class="container" style="width: 80%; margin: auto; overflow: hidden;">
+        <section id="About" style="padding: 1rem 0;">
+            <h2 style="color: rgb(23, 22, 22);">About me</h2>
+            <p>Hi, I'm Hassan Waris. I'm a web and app developer. I can create apps in Kotlin and websites in HTML</p>
+            <img src="434831645_3419632491668309_8034130289571778438_n (1).jpg" alt="error loading image" style="max-width: 100%; height: auto;">
+        </section>
+
+        <section id="Skills" style="padding: 1rem 0;">
+            <h2 style="color: rgb(23, 22, 22);">Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>C++</li>
+                <li>Kotlin</li>
+                <li>HTML</li>
+            </ul>
+        </section>
+
+        <section id="contact" style="padding: 1rem 0;">
+            <h2 style="color: rgb(23, 22, 22);">Contact</h2>
+            <p>If you like to get in touch with me, feel free to reach out via email at <a href="mailto:hassanwaris356@gmail.com">hassanwaris356@gmail.com</a>. I look forward to hearing from you.</p>
+        </section>
+
+        <div style="height: 100px"></div>
+    </div>
+
+    <footer style="background-color: rgb(23, 22, 22); color: rgb(255, 254, 254); text-align: center; padding: 1rem; position: fixed; width: 100%; bottom: 0;">
+        <p>&copy; 2024 Hassan Waris</p>
+    </footer>
+</body>
+</html>
